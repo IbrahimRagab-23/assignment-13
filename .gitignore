@@ -1,0 +1,24 @@
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+# Editors
+.vscode/
+.idea/
+*.swp
+# Secrets - never upload these
+.env
+.env.*
+*.pem
+*.key
+# Logs
+*.log
+
+# Node.js
+node_modules/
+dist/
+build/
+coverage/
+.next/
+npm-debug.log*

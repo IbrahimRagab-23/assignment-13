@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "concurrently": "^10.0.6",
+    "typescript": "^7.0.2"
+  },
+  "name": "ibrahim-ragab_-c48-node.js-mon-thur-7-10pm-(dokki)-ofline-assignment-13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "concurrently \"tsc --watch\" \"node --watch dist/main.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
